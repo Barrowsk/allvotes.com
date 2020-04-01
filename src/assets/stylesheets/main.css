@@ -1,0 +1,610 @@
+
+/* ========== FONTS ========== */
+
+@font-face {
+    font-family: Playfair Display;
+    src: url(/src/assets/fonts/playfair-display/PlayfairDisplay-Bold.otf);
+}
+
+@font-face {
+    font-family: Playfair Display Reg;
+    src: url(/src/assets/fonts/playfair-display/PlayfairDisplay-Regular.otf)
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(/src/assets/fonts/raleway/Raleway-Medium.ttf)
+}
+
+@font-face {
+    font-family: Raleway Bold;
+    src: url(/src/assets/fonts/raleway/Raleway-Bold.ttf)
+}
+
+@font-face {
+    font-family: Raleway Black;
+    src: url(/src/assets/fonts/raleway/Raleway-Black.ttf)
+}
+
+/* ========== HEADER ========== */
+
+.navbar {
+    padding-right: 100px;
+}
+
+.header {
+    background-color: #fff;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.nav-link-text {
+    font-family: 'Raleway Bold', sans-serif;
+    color: #08509f;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navbar-toggler-icon {
+    color: #08509f;
+}
+
+.image {
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #08509f;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #ae0202;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #073669;
+}
+
+.nav-menu {
+    margin-left: 30px;
+}
+
+.nav-menu a {
+    float: right;
+    padding: 20px 30px;
+}
+
+.nav-menu a:hover {
+    color: #ae0202;
+}
+
+
+/* ========== OPENING SECTION ========== */
+
+.section {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #E5E5E5;
+}
+
+.jumbotron {
+    background-color: #fff;
+}
+
+.jumbo-lead {
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.jumbo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #000;
+    font-size: 14px;
+}
+
+.btn-danger {
+    background-color: #ae0202;
+    border-color: #ae0202;
+}
+
+.btn-danger:hover {
+    background-color: #F94444;
+    border-color:  #F94444;
+}
+
+
+/* ========== VOTING GUIDES ========== */
+
+.heading,
+.state-voting-guides-header {
+    overflow: visible;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    order: -1;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.voting-guides {
+    background-image: linear-gradient(180deg, #073669, #08509f);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-block {
+    display: block;
+    width: 150px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.form {
+    width: 150px;
+}
+
+.div-block {
+    width: 20%;
+}
+
+.svg-select-field {
+    background-color: #c4c4c4;
+    font-family: 'Raleway Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    width: 175px;
+    height: 50px;
+    border-radius: 0px;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+.map {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ========== REGISTER TO VOTE ========== */
+
+.heading,
+.register-header {
+    width: auto;
+    font-size: 50px;
+}
+
+.register-to-vote {
+    background-image: linear-gradient(180deg, #ae0202, #f94444 65%);
+}
+
+.reg-p1 {
+    font-family: 'Playfair Display Reg', serif;
+    font-size: 26px;
+    color: #fff;
+}
+
+.columns {
+    -webkit-columns: 2 400px;
+    -moz-columns: 2 400px;
+    columns: 2 400px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.select-field {
+    background-color: #c4c4c4;
+    font-family: 'Raleway Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    width: auto;
+    height: auto;
+    border-radius: 0px;
+}
+
+.column {
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.column-2 {
+    padding-top: 40px;
+}
+
+.button {
+    background-color: #08509f;
+    font-family: 'Raleway Bold', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #fff;
+    height: 80px;
+}
+
+.btn {
+    font-family: 'Raleway';
+}
+
+.btn-primary {
+    background-color: #08509f;
+    border-color: #08509f;
+}
+
+.form-block-2 {
+    border-radius: 10px;
+    background-color: #fff;
+    height: 250px;
+    width: 350px;
+}
+
+.form-2 {
+    display: flex;
+    height: 250px;
+    padding: 40px 30px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    border-radius: 10px;
+}
+
+
+/* ========== VOTING GUIDES ========== */
+
+.heading.sm {
+    margin: 0  30px 00px 0px;
+}
+
+.card-body {
+    padding: 100px;
+}
+
+.disc {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500px;
+}
+
+.heading-4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: #ae0202;
+    margin-top: 30px;
+}
+
+.card-body.small {
+    padding: 20px;
+}
+
+.card-body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+
+/* ========== STATE ========== */
+
+.intro {
+    background-image: linear-gradient(180deg, #ae0202, #e80808);
+}
+
+.columns-2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.column-3 {
+    font-family: 'Raleway Bold', sans-serif;
+    color: #fff;
+    font-size: 16;
+    font-weight: 700;
+}
+
+.column-4 {
+    display: block;
+}
+
+.list {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Raleway Bold', sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+.divider {
+    height: 5px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    background-color: #08509f;
+    color: #08509f;
+}
+
+.state-p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin-bottom: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #000;
+    font-size: 16px;
+}
+
+.list-2 {
+    margin-bottom: 0px;
+    padding-left: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* ========== CONTAINERS ========== */
+
+.body {
+    box-shadow: 1px 1px 6px 0 rgba(0, 0, 0, 0.85);
+}
+
+.container {
+    display: flex;
+    padding: 10px;
+    padding-top: 60px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.container-2 {
+    padding: 40px;
+}
+
+.container-3 {
+    padding: 100px;
+}
+
+
+/* ========== FOOTER ========== */
+
+.layout-grid {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+}
+
+.grid-3 {
+    padding-left: 60px;
+}
+
+.nav-link-footer {
+    font-family: 'Raleway Bold', sans-serif;
+    color: #08509f;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footer {
+    padding: 40px;
+    background-color: #e5e5e5;
+}
+
+.footer.white {
+    background-color: #fff;
+}
+
+.nav-link-text-footer {
+    margin-bottom: 0px;
+    font-family: 'Raleway Bold', sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+/* ========== TEXT STYLES ========== */
+
+a {
+    text-decoration: none;
+    color: #08509f;
+}
+
+li a {
+    color: #fff;
+}
+
+.heading {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 40px;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    background-color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.heading-2 {
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-family: 'Raleway Bold', sans-serif;
+    color: #08509f;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.heading-3 {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    font-family: 'Raleway Bold', sans-serif;
+    color: #ae0202;
+    font-size: 18px;
+}
+
+/* ========== RESPONSIVE DESIGN ========== */
+
+@media screen and (max-width: 991px) {
+    .heading.state-voting-guides-header {
+        height: 100px;
+    }
+    .container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .container-2 {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .button {
+        width: 266px;
+        height: auto;
+        align-self: center;
+        flex: 0 auto;
+        text-align: center;
+    }
+    .columns {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .form-2 {
+        margin-top: 0px;
+    }
+    .form-block-2 {
+        height: auto;
+        margin-top: 20px;
+    }
+    .column {
+        display: flex;
+        justify-content: center;
+    }
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .heading {
+        margin-bottom: 20px;
+    }
+    .div-block {
+        height: 0px;
+    }
+    .svg-select-field {
+        margin-top: 10px;
+    }
+    .container-3 {
+        display: block;
+    }
+    .state-p {
+        display: block;
+        object-fit: fill;
+    }
+    .navbar a {
+        display: none;
+    }
+    .navbar a.icon {
+        float: right;
+        display: block;
+    }
+    .nav-menu.resonsive {
+        position: relative;
+    }
+    .nav-menu .responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .nav-menu .responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .image {
+        max-width: 75%;
+    }
+    .select-field {
+        margin-top: 10px;
+    }
+    .heading {
+        display: block;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        flex: 0 auto;
+        font-size: 40px;
+    }
+    .heading.state-voting-guides-header {
+        width: 170px;
+        height: 150px;
+        align-self: baseline;
+        font-size: 40px;
+    }
+    .heading.register-to-vote-header {
+        width: 200px;
+        height: 100px;
+        font-size: 40px;
+    }
+    .container-2 {
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .button {
+        width: 200px;
+    }
+    .column-2.column {
+        padding-top: 0px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .grid-3 {
+        padding-left: 0px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto auto;
+    }
+    .columns-2 {
+        display: block;
+        flex: 0 auto;
+    }
+    .container-3 {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .state-p {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .column-5 {
+        padding-left: 0px;
+    }
+}
